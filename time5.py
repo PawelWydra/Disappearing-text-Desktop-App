@@ -24,17 +24,13 @@ def count_down(count=5):
 
 
 # ---------------------------- CONSTANTS ------------------------------- #
-PINK = "#e2979c"
-RED = "#e7305b"
-GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
-FONT_NAME = "Courier"
 timer = None
 time = 5
 text = ""
 
 window = Tk()
-window.title("Pomodoro")
+window.title("Disappearing Text Application")
 window.config(padx=100, pady=50, bg=YELLOW)
 # setting window size
 width = 800

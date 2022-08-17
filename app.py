@@ -2,6 +2,8 @@ from tkinter import *
 import tkinter.font as tkFont
 
 
+# ---------------------------- BUTTONS FUNCTION ------------------------------- #
+
 def five_sec():
     window.destroy()
     import time5
@@ -13,15 +15,9 @@ def ten_sec():
 
 
 # ---------------------------- CONSTANTS ------------------------------- #
-PINK = "#e2979c"
-RED = "#e7305b"
-GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
-FONT_NAME = "Courier"
-timer = None
-
 window = Tk()
-window.title("Pomodoro")
+window.title("Disappearing Text Application")
 window.config(padx=100, pady=50, bg=YELLOW)
 # setting window size
 width = 800
@@ -70,14 +66,5 @@ GLabel_329["fg"] = "#333333"
 GLabel_329["justify"] = "center"
 GLabel_329["text"] = "Choose time to start text disappear"
 GLabel_329.place(x=80, y=220, width=445, height=115)
-
-
-def gButton_302_command():
-    pass
-
-
-def gButton_395_command():
-    pass
-
 
 window.mainloop()
